@@ -6,7 +6,7 @@ using LocalMess.Domain.Exceptions.ValueObjects.User;
 namespace LocalMess.Domain.ValueObjects.User
 {
     /// <summary>
-    /// Username value object used for users model.
+    /// Username value object used for user model.
     /// </summary>
     public class Username
     {
@@ -14,25 +14,25 @@ namespace LocalMess.Domain.ValueObjects.User
         public string Value { get => _value; }
 
         /// <summary>
-        /// <param name="value"/> validation and <see cref="_value"/> assignment.
+        /// Validates and assigns the username value.
         /// </summary>
         /// <param name="value">
         /// Username value.
         /// </param>
         /// <exception cref="InvalidUsernameException">
-        /// Thrown if <paramref name="value"/> is null or whitespace, 
-        /// its length is less than 4 or more than 20.
+        /// Thrown if the username is null or whitespace, 
+        /// shorter than 4 characters, or longer than 20 characters.
         /// </exception>
         public Username(string value)
         {
             if (string.IsNullOrWhiteSpace(value))
-                throw new InvalidUsernameException("Username null or white space");
+                throw new InvalidUsernameException("Username null or whitespace.");
 
             if (value.Length < 4)
-                throw new InvalidUsernameException("Username too short");
+                throw new InvalidUsernameException("Username too short.");
 
             if (value.Length > 20)
-                throw new InvalidUsernameException("Username too long");
+                throw new InvalidUsernameException("Username too long.");
 
             _value = value;
         }
