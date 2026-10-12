@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="LocalMess.API/LocalMess.API.csproj" Id="64a51141-e921-4ce1-915c-00a1ce22006f" />
+  <Project Path="LocalMess.Application/LocalMess.Application.csproj" Id="aaa79dfd-518b-470e-b027-9cfc40a7ea10" />
+  <Project Path="LocalMess.CLI/LocalMess.CLI.csproj" Id="d9d8921e-19ff-48db-9758-0381db58e4fe" />
+  <Project Path="LocalMess.Domain/LocalMess.Domain.csproj" Id="f27012cf-5f48-41eb-9809-45cf885cc9c8" />
+  <Project Path="LocalMess.Infrastructure/LocalMess.Infrastructure.csproj" Id="58795afb-1988-40a7-92d2-7e595b41a792" />
+  <Project Path="LocalMess.WebSocket/LocalMess.WebSocket.csproj" />
+</Solution>

@@ -1,0 +1,6 @@
+@LocalMess.API_HostAddress = http://localhost:5287
+
+GET {{LocalMess.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
