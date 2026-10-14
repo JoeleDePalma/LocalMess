@@ -7,7 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Exceptions\ValueObjects\Chat\" />
     <Folder Include="Interfaces\" />
+    <Folder Include="ValueObjects\Chat\" />
+    <Folder Include="ValueObjects\Message\" />
+    <Folder Include="ValueObjects\UserInChat\" />
   </ItemGroup>
 
 </Project>
