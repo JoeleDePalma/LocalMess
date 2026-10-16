@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace LocalMess.Domain.Models
+namespace LocalMess.Infrastructure.Persistence.Entities
 {
-    internal class UserInChat
+    internal class UserEntity
     {
     }
 }

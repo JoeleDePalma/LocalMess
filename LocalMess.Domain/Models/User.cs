@@ -44,7 +44,7 @@ namespace LocalMess.Domain.Models
         public void UpdatePassword(Password newPassword)
         {
             if (newPassword is null)
-                throw new InvalidPasswordException("Password cannot be null"); 
+                throw new InvalidPasswordException("Password cannot be null."); 
 
             Password = newPassword;
             LastUpdateAt = DateTime.UtcNow;

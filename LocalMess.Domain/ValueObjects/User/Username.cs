@@ -57,8 +57,7 @@ namespace LocalMess.Domain.ValueObjects.User
         /// </summary>
         /// <returns>The value hash.</returns>
         public override int GetHashCode()
-        {
-            return _value.GetHashCode();
-        }
+            => _value.GetHashCode();
+        
     }
 }
