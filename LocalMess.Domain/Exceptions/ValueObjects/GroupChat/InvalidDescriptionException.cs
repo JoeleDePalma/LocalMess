@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace LocalMess.Domain.Exceptions.ValueObjects.Chat
+﻿namespace LocalMess.Domain.Exceptions.ValueObjects.GroupChat
 {
     public class InvalidDescriptionException : BaseDomainException
     {

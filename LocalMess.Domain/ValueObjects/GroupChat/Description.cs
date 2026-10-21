@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using LocalMess.Domain.Exceptions.ValueObjects.Chat;
+﻿using LocalMess.Domain.Exceptions.ValueObjects.GroupChat;
 
-namespace LocalMess.Domain.ValueObjects.Chat
+namespace LocalMess.Domain.ValueObjects.GroupChat
 {
     /// <summary>
-    /// Represents the chat description value object.
+    /// Represents the group chat description value object.
     /// </summary>
     public class Description
     {
@@ -17,10 +14,10 @@ namespace LocalMess.Domain.ValueObjects.Chat
         /// Validates and assigns the description value.
         /// </summary>
         /// <param name="value">
-        /// description value.
+        /// Description value.
         /// </param>
         /// <exception cref="InvalidDescriptionException">
-        /// Thrown if the descriptioni is longer than 300 characters.
+        /// Thrown if the description is longer than 300 characters.
         /// </exception>
         /// <remarks>Empty descriptions are allowed.</remarks>
         public Description(string value)
