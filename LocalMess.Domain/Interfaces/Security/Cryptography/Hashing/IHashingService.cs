@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace LocalMess.Domain.Interfaces.Security.Cryptography
+namespace LocalMess.Domain.Interfaces.Security.Cryptography.Hashing
 {
     public interface IHashingService
     {
